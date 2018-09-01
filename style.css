@@ -30,11 +30,12 @@ li a {
     color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
+	text-decoration: none;
+	font-family: 'Courier New', Courier, monospace;
 }
 
 li a:hover {
-	background-color: blue;
+	background-color:transparent;
 	text-decoration: underline;
 	text-decoration-color: orange;
 
@@ -136,7 +137,7 @@ body{
     animation: titleAnimation 36s linear infinite 0s;
 }
 .slideshow li div h3 {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Courier New', Courier, monospace;
   text-transform: uppercase;
   font-size: 80px;
   padding: 0;
@@ -583,7 +584,7 @@ a{
     text-align: center;
     color: whitesmoke;
     /* font: italic; */
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Courier New', Courier, monospace;
     max-width: 100%;
     height: 600px;
     margin: 10px auto;
@@ -600,7 +601,7 @@ a{
     text-align: center;
     margin-top: 5%;
     font-size: 20px;
-    font: italic 30px/30px Georgia, serif;
+    font-family: 'Courier New', Courier, monospace 30/30px;
     
 }
 .header11 h1:hover{
@@ -768,6 +769,35 @@ input{
 .text5 img{
 	width: 900px;
 	height: 490px;
+}
+
+.header12{
+    background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2014/03/22/305991/49f5a46121a38b1a0fb4d9e69890f9fb.jpg");
+    padding: 20px 0;
+    font-size: 150%;
+    font-weight: 300;
+    text-align: center;
+    color: whitesmoke;
+    /* font: italic; */
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 100%;
+    height: 600px;
+    margin: 10px auto;
+    padding: 16px;
+}
+.header12 h2{
+    color: whitesmoke;
+    font-size: 80px;
+    margin-top: 7%;
+    /* font: bold 70px/30px Georgia, serif; */
+    
+}
+.header12 h1{
+    text-align: center;
+    margin-top: 7%;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace 30/30px;
+    
 }
 
 
