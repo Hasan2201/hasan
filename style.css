@@ -136,12 +136,12 @@ body{
     animation: titleAnimation 36s linear infinite 0s;
 }
 .slideshow li div h3 {
-  font-family: "helvetica neue", helvetica;
+  font-family: 'Times New Roman', Times, serif;
   text-transform: uppercase;
   font-size: 80px;
   padding: 0;
   line-height: 200px;
-	color: rgba(255,255,255, 0.8);
+	color: whitesmoke;
 }
 .slideshow li:nth-child(1) span { background-image: url(https://lh4.googleusercontent.com/PmPdvhJYrpb7_3CZFHud00ai6iiqzkvMtk4RO3MkgZWNdBgRdrm0JYOUB5wi5bIWXK88_RyBqBzeCjUMdAMTF0okyf9f3wQOK3umZmF1xWCClGu7ymOsGav5Ai4HMe6Ot10YP5Z7) }
 .slideshow li:nth-child(2) span {
