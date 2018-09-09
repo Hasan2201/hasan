@@ -11,17 +11,18 @@ li {
 }
 .logo_size img{
     float: left;
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     
     
 }
-ul3 a img {
+.ul3 a img {
     position: relative;
     transition: 1s;
 }
-ul3 a img:hover {
+.ul3 a img:hover {
     transform: rotateX(360deg);
+    color: black;
 }
 
 
@@ -569,7 +570,7 @@ body{
 	background-image: url('http://paksef.com/wp-content/uploads/2015/08/Linkedin-icon.png');
 
 }
-a{
+.social-media a{
   /* background-size:contain; */
   /* display:inline-block; */
   height:100%;
@@ -799,7 +800,103 @@ input{
     font-family: 'Courier New', Courier, monospace 30/30px;
     
 }
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
+.wrapper{
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+ 
+.contact-form{
+ 
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    background: black;
+    padding: 30px 40px;
+    border-radius: 9px;
+    font-family: 'Courier New', Courier, monospace;
+}
+ 
+.title{
+    font-size: 2em;
+    line-height: 1.25em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: whitesmoke;
+    padding-bottom: 35px;
+    font-family: 'Courier New', Courier, monospace;
+}
+ 
+.input-fields {
+    padding: 0 30px;
+}
+ 
+.input-fields .items{
+    width: 100%;
+    
+    padding-bottom: 15px;
+} 
+ 
+.input-fields .items .label{
+    display: block;
+    font-size: 1em;
+    color: whitesmoke;
+    text-transform: capitalize;
+    transition: all 0.5s ease;
+    padding-bottom: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+ 
+.input-fields .items .input,
+.input-fields .items .text-area{
+    background: transparent;
+    border: 0;
+    border: 1px solid #ffecb3;
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 1em;
+    color: #ffecb3;
+    border-radius: 3px;
+    font-family: 'Courier New', Courier, monospace;
+}
+ 
+.btn{
+    margin: 0 30px;
+    background: #ffc107;
+    color: whitesmoke;
+    font-size: 1.25em;  
+    padding: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: 'Courier New', Courier, monospace;
+}
+ 
+ 
+.items #msg{
+    height: 100px;
+}
+ 
+ 
+/* jquery code */
+.input-fields .items .input.active .label{
+    font-size: 15px;
+    top: 0;
+}
+ 
+@media screen and (max-width: 750px){
+    .input-fields {
+        padding: 0;
+    }
+}
 
 
 
